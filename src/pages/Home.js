@@ -4,10 +4,11 @@ import TextTyping from "../front-end/components/TextTyping";
 
 const Home = () => {
     return (
-        <div>
-            <BurgerMenu />
-
-            <TextTyping />
+        <div className="home_body">
+            <div>
+                <BurgerMenu />
+                <TextTyping />
+            </div>
         </div>
     );
 };
